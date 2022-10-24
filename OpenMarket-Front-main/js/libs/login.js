@@ -16,9 +16,9 @@ function buscarUsuario(us,pas){
     .then(userJson => {
         for (let i in userJson){
             if (userJson[i].user===us && userJson[i].pass===pas){
-                console.log("entre")                
+                               
                 existe=true;
-                console.log ("valor de existe: "+ existe)
+                
             } 
         }
         })
