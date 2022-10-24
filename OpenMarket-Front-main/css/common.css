@@ -1,0 +1,94 @@
+@font-face {
+    font-family: sansProLight;
+    src: url(./fonts/sourcesanspro/SourceSansPro-Light.ttf);
+}
+@font-face {
+    font-family: sansProRegular;
+    src: url(./fonts/sourcesanspro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: sansProBold;
+    src: url(./fonts/sourcesanspro/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: interLight;
+    src: url(./fonts/inter/Inter-Light.ttf);
+}
+@font-face {
+    font-family: interSemiBold;
+    src: url(./fonts/inter/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: interRegular;
+    src: url(./fonts/inter/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: interBold;
+    src: url(./fonts/inter/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: ralewayBold;
+    src: url(./fonts/raleway/Raleway-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sansProRegular;
+}
+  
+
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+
+:root {
+    --major-color: #0E1525;
+    --main-bg-color: #EDEDED;
+    --input-bg-color: #FAFAFA;
+    --text-color: #FAFAFA;
+    --white-bg-color: #FFFFFF;
+    --black-color: #000000;
+    --footer-text: 1.6rem;
+    --footer-title: 1.8rem;
+    --font-inter: 'Inter', sans-serif;
+    --button-color: #1C3368;
+}
+
+html{
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+li,
+a {
+    color: var(--input-bg-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+main{
+    padding-top: 70px;
+    height: auto;
+    background-color: var(--main-bg-color);
+}
+
+
+button,input{
+    border: none;
+    outline: none;
+}
+
+button{
+    user-select: none;
+}
+
+input{
+    background-color: var(--input-bg-color);
+}
+
+
